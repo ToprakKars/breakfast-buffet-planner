@@ -1,0 +1,12 @@
+name,category,unit,perAdult,perChild,packSize
+Scrambled eggs,HOT,kg,0.09,0.05,2.5
+Bacon,HOT,kg,0.04,0.02,1
+Pancakes,HOT,pcs,0.6,1.2,50
+Bread rolls,BAKERY,pcs,1.4,0.8,60
+Croissants,BAKERY,pcs,0.5,0.6,40
+Cheese,COLD,kg,0.035,0.015,1
+Salami,COLD,kg,0.025,0.01,0.5
+Yogurt,COLD,kg,0.08,0.1,5
+Fruit salad,FRUIT,kg,0.07,0.08,3
+Orange juice,DRINKS,l,0.18,0.2,5
+Coffee beans,DRINKS,kg,0.014,0,1
