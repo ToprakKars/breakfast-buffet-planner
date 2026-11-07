@@ -1,0 +1,16 @@
+name: build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: maven
+      - run: mvn -B package
+      - run: java -jar target/breakfast-buffet-planner-1.0.0.jar --adults 180 --children 25 --menu menu.csv --stock stock.csv
