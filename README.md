@@ -9,6 +9,8 @@ A Java command-line tool that answers the questions every hotel breakfast shift 
 The idea comes from my own job in hotel breakfast service in Berlin.
 The portions in `menu.csv` are example values, not real data from any hotel.
 
+![Breakfast Buffet Planner output](https://raw.githubusercontent.com/ToprakKars/ToprakKars/main/assets/breakfast-cli.png)
+
 ## Example
 
 ```bash
